@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
@@ -14,5 +15,20 @@ public class MainMenu : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void LoadGame()
+    {
+        SceneManager.LoadScene("colocar aqui o nome da scene do jogo");
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
+    public void LoadOptions()
+    {
+        SceneManager.LoadScene("MenuOptions");
     }
 }
