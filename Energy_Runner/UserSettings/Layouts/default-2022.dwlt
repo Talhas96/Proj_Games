@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 105
+  controlID: 39
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -888,9 +888,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 781.2623, y: 360.78204, z: 124.29615}
+    m_Target: {x: 670.3338, y: 373.7187, z: 253.1543}
     speed: 2
-    m_Value: {x: 781.2623, y: 360.78204, z: 124.29615}
+    m_Value: {x: 670.3338, y: 373.7187, z: 253.1543}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -936,13 +936,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.3147646, y: 0.37950724, z: -0.1390953, w: -0.8588094}
+    m_Target: {x: -0.08002585, y: 0.91867644, z: -0.24684861, w: -0.2978266}
     speed: 2
-    m_Value: {x: -0.3147646, y: 0.37950724, z: -0.1390953, w: -0.85880935}
+    m_Value: {x: -0.08039581, y: 0.9182262, z: -0.24672763, w: -0.29920343}
   m_Size:
-    m_Target: 669.3643
+    m_Target: 271.82053
     speed: 2
-    m_Value: 669.3643
+    m_Value: 284.6288
   m_Ortho:
     m_Target: 0
     speed: 2
