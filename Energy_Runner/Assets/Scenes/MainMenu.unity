@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 173271646}
   - component: {fileID: 173271645}
   m_Layer: 5
-  m_Name: Btn_Exit (1)
+  m_Name: Btn_Options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -472,7 +472,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Options
+  m_Text: Settings
 --- !u!222 &669351275
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -19,7 +19,7 @@ public class MainMenu : MonoBehaviour
 
     public void LoadGame()
     {
-        SceneManager.LoadScene("colocar aqui o nome da scene do jogo");
+        SceneManager.LoadScene("Game");
     }
 
     public void ExitGame()
