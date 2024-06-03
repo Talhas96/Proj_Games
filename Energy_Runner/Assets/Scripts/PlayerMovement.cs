@@ -5,11 +5,15 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 10f; // Velocidade de movimento do jogador
+    public float jumpForce = 7f; // Força do salto
+    private Rigidbody rb; // Referência ao componente Rigidbody
+    private bool isGrounded; // Verifica se o jogador está no chão
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Obtém o componente Rigidbody anexado ao jogador
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -38,6 +42,23 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.DownArrow))
         {
             transform.Translate(Vector3.back * speed * Time.deltaTime);
+        }
+
+        // Salto
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            isGrounded = false; 
+        }
+    }
+
+    // Verifica se o jogador está no chão
+    private void OnCollisionEnter(Collision collision)
+    {
+        // Se o jogador colidir com o chão, permitir saltar novamente
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
         }
     }
 }

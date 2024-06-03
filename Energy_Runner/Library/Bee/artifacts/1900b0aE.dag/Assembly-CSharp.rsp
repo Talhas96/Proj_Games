@@ -355,6 +355,7 @@
 "Assets/Scripts/FollowPlayer.cs"
 "Assets/Scripts/Game.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/Object_Disappear.cs"
 "Assets/Scripts/OptionsMenu.cs"
 "Assets/Scripts/PlayerMovement.cs"
 -langversion:9.0
